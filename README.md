@@ -1,0 +1,1 @@
+This repository is for all my dot files in order to make it easy to set up new Linux boxes, assuming that they are using the Sway window manager, which if I am setting them up they most likely  will be.

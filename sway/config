@@ -22,13 +22,21 @@ set $menu wofi --show drun
 
 include /etc/sway/config-vars.d/*
 
-default_border pixel 2
-default_floating_border pixel 2
 
+### Font
+font pango:Ubuntu 10
+
+### Borders
+smart_borders on
+default_border pixel 1
+default_floating_border pixel 1
+
+client.focused #50fa7b #50fa7b #50fa7b #50fa7b
+client.unfocused #0c0c0c #0c0c0c #0c0c0c #0c0c0c
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /home/sheldon/Pictures/Outrun.png fill
 #
 # Example configuration:
 #

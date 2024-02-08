@@ -22,6 +22,8 @@ set $menu wofi --show drun
 
 include /etc/sway/config-vars.d/*
 
+### Programs that I want to float
+for_window [app_id="pavucontrol"] floating enable
 
 ### Font
 font pango:Ubuntu 10

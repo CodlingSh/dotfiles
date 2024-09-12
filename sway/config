@@ -33,12 +33,13 @@ smart_borders on
 default_border pixel 1
 default_floating_border pixel 1
 
-client.focused #50fa7b #50fa7b #50fa7b #50fa7b
+client.focused #1dd1a1 #1dd1a1 #1dd1a1 #1dd1a1
 client.unfocused #0c0c0c #0c0c0c #0c0c0c #0c0c0c
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/sheldon/Pictures/Outrun.png fill
+output * bg /home/sheldon/Pictures/thunderforce.png fill
+
 #
 # Example configuration:
 #
@@ -77,6 +78,13 @@ output * bg /home/sheldon/Pictures/Outrun.png fill
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
+
+#
+# Set the GTK theme, icons, and cursor
+#
+exec_always {
+	gsettings set org.gnome.desktop.interface gtk-theme "amarena"
+}
 
 ### Key bindings
 #

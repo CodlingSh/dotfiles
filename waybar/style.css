@@ -2,13 +2,15 @@
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, Ubuntu, Roboto, Helvetica, Arial, sans-serif;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 window#waybar {
     background-color: #000000;
     color: #ffffff;
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    padding: 100px;
     border-radius: 0px;
 }
 
